@@ -41,21 +41,21 @@
 						<div class="box alt">
 							<p>The introduced improvement of the algorithm consist of two parts, each aimed at decreasing the number of collisions with moving obstacles. We use the same pretrained vision module to represent the environment and detect objects as in the Bbox-HGG. Obstacle-avoiding distance graph is precalculated at the beginning of the training and includes regions with static obstacles and regions that are constantly occupied by dynamic obstacles. Additional information about moving obstacles (e.g., minimal distance, angles between bounding boxes) is stored at the modified state and is updated after every step.</p>
 							<div class="row gtr-50 gtr-uniform">
-								<div class="col-12"><span class="feature-image fit"><img src="../../images/work/bachelor-thesis/algorithm_overview.jpg" alt="" /></span></div>
+								<div class="col-12"><span class="element-image fit"><img src="../../images/work/bachelor-thesis/algorithm_overview.jpg" alt="" /></span></div>
 							</div>
 							<br>
 							<p>The environments are constructed according to the OpenAI Gym structure (Brockmanet al. 2016).  The robotic simulation is supported by the MuJoCo (Todorov et al. n.d.)engine  with  inverse  kinematics.   We  run  our  experiments  using  a  simulation  of  a 6DOF fetch robotic arm, which manipulates a red puck with an end effector. The end goal is represented by a green square, whereas rectangles are used to represent the obstacles. All three environments contain dynamic obstacles and the last one is a mixed environment, i.e. it includes a dynamic as well a two static obstacles.</p>
 							<div class="row">
 								<article class="col-4 col-12-xsmall screenshot-item">
-									<span class="feature-image fit"><img src="../../images/work/bachelor-thesis/Collision.png" alt="" /></span>
+									<span class="element-image fit"><img src="../../images/work/bachelor-thesis/Collision.png" alt="" /></span>
 									<p>Collision of a manipulated object (red) and dynamic obstacle (blue).</p>
 								</article>
 								<article class="col-4 col-12-xsmall screenshot-item">
-									<span class="feature-image fit"><img src="../../images/work/bachelor-thesis/Move_opposite.png" alt="" /></span>
+									<span class="element-image fit"><img src="../../images/work/bachelor-thesis/Move_opposite.png" alt="" /></span>
 									<p>Direction arrows to avoid collision with a moving obstacle.</p>
 								</article>
 								<article class="col-4 col-12-xsmall screenshot-item">
-									<span class="feature-image fit"><img src="../../images/work/bachelor-thesis/FetchPushMovingCom-1.png" alt="" /></span>
+									<span class="element-image fit"><img src="../../images/work/bachelor-thesis/FetchPushMovingCom-1.png" alt="" /></span>
 									<p>3D environment with multiple dynamic obstacles.</p>
 								</article>
 							</div>
