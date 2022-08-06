@@ -3429,6 +3429,13 @@ input, select, textarea {
 
 	}
 
+/* Video Spoiler */
+.video-spoiler{
+	font-size: 1.3em;
+	font-weight: 800;
+	color:#3eb08f;
+}
+
 /* Special Modifications */
 .general-desription {
 	font-size: 1.0em !important;
