@@ -2073,11 +2073,11 @@ input, select, textarea {
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
-				content: 'View';
+				content: 'Read more';
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
-				left: 50%;
+				left: 46%;
 				line-height: 2.25em;
 				margin: -1.25em 0 0 -3em;
 				opacity: 0;
@@ -2551,6 +2551,76 @@ input, select, textarea {
 			cursor: default;
 		}
 
+/* Feature Item */
+
+	.feature-item {
+		margin: 0 0 2em 0;
+		text-align: center;
+	}
+
+		.feature-item .feature {
+			margin: 0 0 0.6em -1em;
+		}
+
+		.feature-item h3 {
+			font-size: 1em;
+			margin: 0 0 0.5em 0;
+			text-align: left;
+		}
+
+		.feature-item p {
+			font-size: 0.8em;
+			line-height: 1.5em;
+			margin: 0;
+			text-align: left;
+		}
+
+	.feature {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+	
+	.feature.fa {
+		display: inline-block;
+		border-radius: 60px;
+		box-shadow: 0 0 2px #888;
+		color: #474747;
+		width: 60px;
+		height: 60px;
+		padding: 0.5em 0 0 0;
+		font-size: 1.8em;
+	}
+	
+		.feature:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			display: inline-block;
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			line-height: 1;
+			text-transform: none !important;
+			font-family: 'Font Awesome 5 Free';
+			font-weight: 400;
+		}
+	
+		.feature > .label {
+			display: none;
+		}
+	
+		.feature:before {
+			line-height: inherit;
+		}
+	
+		.feature.solid:before {
+			font-weight: 900;
+		}
+	
+		.feature.brands:before {
+			font-family: 'Font Awesome 5 Brands';
+		}
+	
 /* Work Item */
 
 	.work-item {
@@ -2621,6 +2691,7 @@ input, select, textarea {
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 			margin: 0 0 2em 0;
+			text-align: center;
 		}
 
 		#header strong, #header b {
@@ -2640,10 +2711,16 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 16.25em;
+			border: solid #d4d4d4;
+			border-width: 4px;
 		}
 
 /* Footer */
+
+	#footer > .inner {
+		text-align: center;
+	}
 
 	#footer .icons {
 		margin: 1em 0 0 0;
@@ -3219,3 +3296,8 @@ input, select, textarea {
 			}
 
 	}
+
+/* Special Modifications */
+.general-desription {
+	font-size: 1.0em !important;
+}
